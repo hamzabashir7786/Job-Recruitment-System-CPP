@@ -1,47 +1,46 @@
-# 🚀 Job Recruitment System (C++)
+# 🚀 Job Recruitment System (C++ Logic + Web UI)
 
-A modular, console-based **Job Recruitment Management System** developed using **Object-Oriented Programming (OOP)** and **Data Structures (DSA)**. This system automates the process of posting jobs, managing applicants, and ranking candidates based on merit.
-
----
-
-# 🛠️ Technical Core
-This project demonstrates the practical application of essential Computer Science concepts:
-
-- **Singly Linked Lists:** Custom implementation to manage dynamic records for `Jobs` and `Applicants` without memory overhead.
-- **Queue (STL):** Used to maintain the sequence of applications (FIFO) for fair processing.
-- **Algorithm (Bubble Sort):** A specialized sorting logic applied directly to the linked list to rank applicants by their **Qualification Scores**.
-- **Modular Architecture:** Separation of concerns using Header (`.h`) and Implementation (`.cpp`) files.
+A hybrid **Job Recruitment Management System** that combines the power of **C++ Data Structures** with a modern **Web Interface**. This project demonstrates how backend logic and frontend presentation work together in a real-world scenario.
 
 ---
 
-# ✨ Key Functionalities
+## 🛠️ Hybrid Architecture
+This project is divided into two main cores to show versatility in software development:
 
-# 🏢 For Employers (Job Management)
-- **Dynamic Posting:** Add job listings with ID, Title, Company, and Salary details.
-- **Company Filtering:** Search and display all job openings specific to a company name.
-- **Inventory Management:** Delete outdated job posts and track total active listings.
-
-# 👤 For Applicants (Candidate Tracking)
-- **Application Portal:** Direct application to jobs using unique IDs.
-- **Search Engine:** Find relevant jobs by ID or Title.
-- **Profile Updates:** Edit applicant contact information and scores dynamically.
-- **Leaderboard:** View top-qualified candidates ranked by an automated sorting engine.
+- **Backend (C++ Engine):** Uses **Singly Linked Lists**, **Queues**, and **Bubble Sort** for high-performance data management.
+- **Frontend (Web UI):** A responsive interface built with **HTML5**, **CSS3**, and **JavaScript** to provide a seamless user experience.
 
 ---
 
-# 📂 Project Structure
+## ✨ Key Functionalities
 
-| File | Role |
-| :--- | :--- |
-| `Main.cpp` | Entry point containing the menu-driven user interface. |
-| `RecruitmentSystem.h/cpp` | The engine containing the core logic (Search, Sort, Delete, Apply). |
-| `Job.h` | Blueprint for the Job node in the linked list. |
-| `Applicant.h` | Blueprint for the Applicant node in the linked list. |
+### 🌐 Frontend Experience (Web)
+- **Dynamic Job Selection:** Applicants can select jobs from a real-time updated dropdown menu.
+- **Live HR Dashboard:** Monitor total job counts and applicant statistics instantly.
+- **Automatic Redirection:** Seamlessly takes the user back to the home page after a successful application.
+- **GitHub Integration:** Quick access buttons to view the developer's profile and source code.
+
+### 🏢 Backend Logic (C++)
+- **Singly Linked Lists:** Efficiently manages dynamic records for `Jobs` and `Applicants`.
+- **Bubble Sort Algorithm:** A specialized logic to rank applicants by their **Qualification Scores**.
+- **Queue Management:** Ensures a fair FIFO (First-In-First-Out) process for all incoming applications.
+- **Modular Design:** Professional structure using Header (`.h`) and Implementation (`.cpp`) files.
 
 ---
 
-# 🚀 Installation & Usage
+## 📂 Project Structure
+The repository is organized into distinct modules for better maintainability:
 
-# 1. Clone the Repository
+| Folder | Contents | Role |
+| :--- | :--- | :--- |
+| 📂 **Backend/** | `Main.cpp`, `RecruitmentSystem.h/cpp`, `Job.h`, `Applicant.h` | Core logic, memory management, and sorting. |
+| 📂 **Frontend/** | `Frontend.html` | User interface, forms, and HR dashboard visuals. |
+| 📄 **README.md** | Documentation | Project overview and setup instructions. |
+
+---
+
+## 🚀 Installation & Usage
+
+### 1. Clone the Repository
 ```bash
-git clone [https://github.com/hamzabashir7786/Job-Recruitment-System.git](https://github.com/hamzabashir7786/Job-Recruitment-System.git)
+git clone [https://github.com/hamzabashir7786/Job-Recruitment-System-CPP.git](https://github.com/hamzabashir7786/Job-Recruitment-System-CPP.git)
